@@ -8,7 +8,7 @@ Build an image for our build-environment:
 
 Enter build environment:
 
-   Linux or MacOS: `docker run --rm -it -v "$(pwd)":/root/env osdev`<br>
+   Linux or MacOS: `docker run --rm -it -v $(pwd):/root/env osdev`<br>
    Windows (CMD): `docker run --rm -it -v "%cd%":/root/env osdev`<br>
    Windows (PowerShell): `docker run --rm -it -v "${pwd}:/root/env" osdev`<br>
    Please use the linux command if you are using `WSL`, `msys2` or `git bash`<br>
