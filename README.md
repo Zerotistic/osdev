@@ -14,7 +14,7 @@ Enter build environment:
    Please use the linux command if you are using `WSL`, `msys2` or `git bash`<br>
    NOTE: If you are having trouble with an unshared drive, ensure your docker daemon has access to the drive you're development environment is in. For Docker Desktop, this is in "Settings > Shared Drives" or "Settings > Resources > File Sharing".
 
-Build for x86 (other architectures may come in the future):
+Build :
 
    `make build-x86_64`
    If you are using Qemu, please close it before running this command to prevent errors.
